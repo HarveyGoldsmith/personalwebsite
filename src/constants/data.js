@@ -63,7 +63,7 @@ export const projects = [
     description: "My personal website, you're looking at it right now",
     image: process.env.PUBLIC_URL + "/images/personalwebsite.png",
     tags: ["React", "JS", "CSS"],
-    source: "https://github.com/HarveyGoldsmith/harveygoldsmith",
+    source: "https://github.com/HarveyGoldsmith/personalwebsite",
     visit: "",
   },
 ];
