@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../constants/data";
+import { projects } from "../../constants/data";
 //import $ from "jquery";
 //import { FaArrowCircleUp } from "react-icons/fa";
 
@@ -9,16 +9,17 @@ const Projects = () => {
   //   $("html, body").animate({ scrollTop: 0 }, "slow");
   // };
   return (
-    <div className="container">
+    <div id="technologies">
+      <h2 className="title">Projects</h2>
       <div className="projects-container">
         {projects.map((project) => {
           return (
             <div className="project-card" key={project.id}>
-              <img
+              {/*<img
                 className="project-image"
                 src={project.image}
                 alt={project.title}
-              />
+              />*/}
 
               <div className="project-title">
                 <h3 className="project-header">{project.title}</h3>

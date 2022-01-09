@@ -3,6 +3,7 @@ import Intro from "./sections/Intro";
 import Technologies from "./sections/Technologies";
 import Carousel from "./sections/Carousel";
 import { FaArrowCircleUp } from "react-icons/fa";
+import Projects from "./sections/Projects";
 import $ from "jquery";
 
 const Home = () => {
@@ -15,6 +16,8 @@ const Home = () => {
       <Intro />
       <div className="divider"></div>
       <Technologies />
+      <div className="divider"></div>
+      <Projects />
       <div className="divider"></div>
       <Carousel />
       <button className="scroll-to-top" onClick={(e) => handleClick(e)}>

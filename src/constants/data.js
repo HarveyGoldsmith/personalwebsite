@@ -4,27 +4,21 @@ import { MdEmail } from "react-icons/md";
 export const links = [
   {
     id: 1,
-    url: "/",
-    text: "home",
-    scrollTo: null,
+    url: "",
+    text: "technologies",
+    scrollTo: "#technologies",
   },
   {
     id: 2,
-    url: "/projects",
+    url: "",
     text: "projects",
-    scrollTo: null,
+    scrollTo: ".projects-container",
   },
   {
     id: 3,
     url: "",
     text: "about",
     scrollTo: "#about",
-  },
-  {
-    id: 4,
-    url: "",
-    text: "technologies",
-    scrollTo: "#technologies",
   },
 ];
 
@@ -59,7 +53,7 @@ export const projects = [
       "Simple weather widget for 3 set locations and the user's location",
     image:
       "https://live-production.wcms.abc-cdn.net.au/f50d8b8482f8c22f42226f1eb270f964?impolicy=wcms_crop_resize&cropH=557&cropW=991&xPos=0&yPos=105&width=862&height=485",
-    tags: ["React"],
+    tags: ["React", "JS", "CSS"],
     source: "https://github.com/HarveyGoldsmith/Weather-App",
     visit: "",
   },
@@ -67,8 +61,7 @@ export const projects = [
     id: 2,
     title: "Personal Website",
     description: "My personal website, you're looking at it right now",
-    image:
-      "https://live-production.wcms.abc-cdn.net.au/f50d8b8482f8c22f42226f1eb270f964?impolicy=wcms_crop_resize&cropH=557&cropW=991&xPos=0&yPos=105&width=862&height=485",
+    image: process.env.PUBLIC_URL + "/images/personalwebsite.png",
     tags: ["React", "JS", "CSS"],
     source: "https://github.com/HarveyGoldsmith/harveygoldsmith",
     visit: "",
