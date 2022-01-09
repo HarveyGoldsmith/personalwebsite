@@ -11,6 +11,10 @@ const Projects = () => {
   return (
     <div id="technologies">
       <h2 className="title">Projects</h2>
+      <div className="description">
+        Here are the personal projects I have worked on, feel free to contact me
+        for more information.
+      </div>
       <div className="projects-container">
         {projects.map((project) => {
           return (

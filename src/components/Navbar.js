@@ -21,7 +21,6 @@ const Navbar = () => {
     e.preventDefault();
 
     var element = $(scrollTo)[0];
-    console.log("scroll");
     element.scrollIntoView({
       behavior: "smooth",
       block: "start",
